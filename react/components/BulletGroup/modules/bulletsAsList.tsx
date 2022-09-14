@@ -1,6 +1,6 @@
 import React from "react"
-import { BulletsSchema } from "../BulletTypes"
 import Bullet from "../Bullet"
+import { BulletsSchema } from "../BulletTypes"
 
 export const getBulletsAsTSXList = (
   bullets: BulletsSchema
@@ -9,12 +9,12 @@ export const getBulletsAsTSXList = (
     console.log("Mi bullets es", bullet)
     return <Bullet
       key={index}
-      src={bullet.src}
+      src={bullet.image}
       titleBullet={bullet.titleBullet}
       link= {
         bullet.link
         ?
-        bullet.link
+          bullet.link
         :
         {
           url: "",

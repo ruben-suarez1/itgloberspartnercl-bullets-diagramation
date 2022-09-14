@@ -22,6 +22,7 @@ const BulletGroup = ({
   if (false) {
     console.log( children, list)
   }
+
   return (
     isMobile
     ?
