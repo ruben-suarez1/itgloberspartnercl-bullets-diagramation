@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from 'react'
 import{ useListContext } from 'vtex.list-context'
-import { BulletsSchema } from './BulletsTypes'
+import { BulletsSchema } from './BulletTypes'
 import { useDevice } from 'vtex.device-detector'
 import { getBulletsAsTSXList } from './modules/bulletsAsList'
 
