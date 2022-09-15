@@ -1,0 +1,32 @@
+.bullet__container {
+  display: flex;
+  overflow: auto;
+  width: 90%;
+}
+
+.bullet__item,
+.bullet__item--image {
+  width: 80px;
+}
+
+.bullet__item {
+  margin-right: 15px;
+}
+
+.bullet__item--link {
+  text-decoration: none;
+}
+
+.bullet__item--title {
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+  .bullet__item,
+  .bullet__item--image {
+    width: 110px
+  }
+}
